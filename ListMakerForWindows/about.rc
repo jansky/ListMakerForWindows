@@ -1,0 +1,14 @@
+#include "about.h"
+#include <Windows.h>
+#include <winres.h>
+
+
+IDD_ABOUTDLG DIALOG DISCARDABLE 0, 0, 376, 71
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About List Maker For Windows"
+FONT 8, "Ms Shell Dlg"
+{
+	GROUPBOX        "About List Maker For Windows", 0, 3, 4, 371, 64, 0, WS_EX_LEFT
+		LTEXT           "List Maker For Windows\r\n\r\nVersion 0.1\r\n\r\nBy Ian Duncan", 0, 9, 17, 79, 40, SS_LEFT, WS_EX_LEFT
+		DEFPUSHBUTTON   "OK", IDOK, 321, 50, 50, 14, 0, WS_EX_LEFT
+}
